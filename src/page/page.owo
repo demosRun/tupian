@@ -1,0 +1,727 @@
+<template lang="pug">
+.home
+  plug(_name="module158" _src="https://template.owo.ink/bd9ebf9bf3ace39a.owo")
+  plug(_name="pindao" _src="./src/moudle/pindao.owo")
+  plug(_name="module60" _src="https://template.owo.ink/c2cab888fc67bf34.owo")
+  //- 大图轮播
+  plug(_name="bigImage" _src="./src/moudle/bigImage.owo")
+  //- 原创精选
+  .w1000
+    .title
+      span 原创精选
+      .more
+        a(href="#") 更多
+    .text-box
+      p 原创精选介绍原创精选介绍原创精选介绍原创精选介绍原创精选介绍原创精选介绍原创精选介绍原创精选<br>介绍原创精选介绍原创精选介绍原创精选介绍原创精选介绍原创精选介绍原创精选介绍原创精选介绍<br>原创精选介绍原创精选介绍原创精选介绍
+  plug(_name="imageShow" _src="./src/moudle/imageShow.owo")
+  .w1000
+    .title
+      span 每日高清
+      .more
+        a(href="#") 更多
+    .tab-bar
+      .item
+        span 国内
+        ul.edit
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+      .item
+        span 国际
+        ul.edit
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+      .item
+        span 社会
+        ul.edit
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+      .item
+        span 军事
+        ul.edit
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+      .item
+        span 娱乐
+        ul.edit
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+      .item
+        span 探索
+        ul.edit
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+      .item
+        span 纪实
+        ul.edit
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+      .item
+        span 趣闻
+        ul.edit
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+      .item
+        span 滚动
+        ul.edit
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+          li.swiper-slide
+            a(href="#" target="_blank")
+              img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051222267736536649376.jpg")
+              span 第三届中国江苏太湖影视峰会
+              p 简介简介简介简介简介简介简介简介简介
+  .show-box.w1200
+    .swiper-container-show
+      ul.swiper-wrapper
+</template>
+
+<script>
+  function randomNum(minNum, maxNum){ 
+    switch(arguments.length){ 
+      case 1: 
+        return parseInt(Math.random()*minNum+1,10); 
+      break; 
+      case 2: 
+        return parseInt(Math.random()*(maxNum-minNum+1)+minNum,10); 
+      break; 
+        default: 
+          return 0; 
+        break; 
+    } 
+  } 
+  module.exports = {
+    data: {
+      swiper: null
+    },
+    created: function () {
+      const editList = this.queryAll('.tab-bar .edit')
+      // 随机一个项目
+      console.log(editList[randomNum(0, editList.length - 1)])
+      this.query('.show-box .swiper-wrapper').innerHTML = editList[randomNum(0, editList.length - 1)].innerHTML
+      setTimeout(() => {
+        this.data.swiper = new Swiper(this.query('.swiper-container-show'), {
+          autoplay: true,
+          slidesPerView: 4,
+          slidesPerColumn: 2,
+          // slidesPerGroup: 8,
+          paginationClickable: true
+        });
+      }, 0);
+      
+    }
+  }
+</script>
+
+
+<style lang="less">
+.logo_line.mt5 {
+  margin: 35px auto;
+}
+.title {
+  background-image: url('@|title-bg.png|');
+  background-repeat: no-repeat;
+  text-align: center;
+  background-position: center bottom;
+  position: relative;
+  span {
+    line-height: 100px;
+    font-size: 40px;
+    margin-top: 20px;
+  }
+  .more {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+}
+.text-box {
+  font-size: 20px;
+  line-height: 1.6;
+  text-align: center;
+  margin-top: 40px;
+  color: #81858e;
+}
+.tab-bar {
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 30px;
+  text-align: center;
+  .item {
+    width: 120px;
+    height: 50px;
+    border: 1px solid #c6d1e3;
+    border-radius: 32px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+    background-color: #ebedf1;
+    color: #909297;
+    display: inline-block;
+    margin: 8px 10px;
+    cursor: pointer;
+  }
+}
+.edit {
+  display: none;
+}
+.show-box {
+  height: 800px;
+  overflow: hidden;
+  .swiper-container-show {
+    width: 1200px;
+    height: 800px;
+    overflow: hidden;
+    .swiper-slide {
+      height: 400px;
+      
+      a {
+        display: block;
+        margin: 10px;
+        height: 380px;
+        width: 280px;
+        background-color: #ebedf1;
+        background-image: url('@|more.png|');
+        background-repeat: no-repeat;
+        background-position: 210px 320px;
+      }
+      img {
+        width: 100%;
+        height: 200px;
+      }
+      span {
+        color: #555555;
+        font-size: 18px;
+        margin: 0 10px;
+        line-height: 30px;
+        width: 260px;
+        display: block;
+      }
+      p {
+        color: #555555;
+        font-size: 14px;
+        margin: 0 10px;
+        line-height: 30px;
+        width: 260px;
+        display: block;
+      }
+    }
+  }
+}
+</style>

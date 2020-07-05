@@ -1,0 +1,37 @@
+<template lang="pug">
+.w1000.clear.logo_line.mt5.o_h
+  .fl
+    a(href='http://www.people.com.cn', target='_blank')
+      img(src='http://www.people.com.cn/img/MAIN/2016/11/116906/images/logo_rmw.png', width='120', height='46', alt='人民网')
+    span 图片
+  .fr
+    form(action='http://search.people.com.cn/cnpeople/searchForChannel.do', name='searchForm', method='post', target='_blank')
+      input(type='hidden', name='siteName', value='people')
+      input(type='hidden', name='pageNum', value='1')
+      input(type='hidden', name='totalPage', value='0')
+      input(type='hidden', name='channelName', value='industry')
+      input(type='image', src='http://www.people.com.cn/img/MAIN/2016/11/116906/images/icon2.gif')
+      input#keyword.jianso_t(type='text', name='keyword', value='新闻检索', onblur="if(this.value=='') this.value='新闻检索';this.style.color='#ccc';", onfocus="if(this.value=='新闻检索') this.value='';this.style.color='#000';")
+</template>
+
+<script>
+  module.exports = {
+    created: function () {
+
+    }
+  }
+</script>
+
+
+<style lang="less">
+.jsnew_line .fl{ width:1000px;}
+.jsnew_line .fl div{ width:890px;}
+.jsnew_line .fl div marquee{ width:890px;}
+
+.logo_line .fr{ padding-top:15px;}
+.logo_line .fr input.jianso_t { width:265px ; height:33px; border:1px solid #ebebeb; float:right; padding-left:10px; color:#ccc; font-size:12px;}
+.logo_line .fr input{ float:right;}
+.logo_line .fr input.jianso_t{ line-height:33px;}
+.logo_line img{ float:left; margin-right:10px; vertical-align:middle}
+.logo_line span{ float:left; background:#e00011; font-family:"\5FAE\8F6F\96C5\9ED1"; font-size:30px; color:#fff; padding:0 5px; line-height:35px; height:35px; margin-top:8px}
+</style>

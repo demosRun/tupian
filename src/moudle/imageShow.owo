@@ -1,0 +1,131 @@
+<template lang="pug">
+.image-show
+  .swiper-container
+    ul.swiper-wrapper
+      li.swiper-slide
+        a(href="#" target="_blank")
+          img(src="http://pic.people.com.cn/NMediaFile/2020/0703/MAIN202007030903000501770345775.jpg")
+          span 底部文字介绍
+      li.swiper-slide
+        a(href="#" target="_blank")
+          img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051101013268505548720.jpg")
+          span 底部文字介绍
+      li.swiper-slide
+        a(href="#" target="_blank")
+          img(src="http://www.people.com.cn/NMediaFile/2020/0703/MAIN202007031342371510552806950.jpg")
+          span 底部文字介绍
+      li.swiper-slide
+        a(href="#" target="_blank")
+          img(src="http://pic.people.com.cn/NMediaFile/2020/0703/MAIN202007030903000501770345775.jpg")
+          span 底部文字介绍
+      li.swiper-slide
+        a(href="#" target="_blank")
+          img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051101013268505548720.jpg")
+          span 底部文字介绍
+      li.swiper-slide
+        a(href="#" target="_blank")
+          img(src="http://www.people.com.cn/NMediaFile/2020/0703/MAIN202007031342371510552806950.jpg")
+          span 底部文字介绍
+    img.left.button(src="@|left.png|" o-tap="prev")
+    img.right.button(src="@|right.png|" o-tap="next")
+</template>
+
+<script>
+  module.exports = {
+    data: {
+      swiper: null
+    },
+    created: function () {
+      this.data.swiper = new Swiper(this.query('.swiper-container'), {
+        loop: true,
+        autoplay: true,
+        slidesPerView: 5,
+        paginationClickable: true,
+        on: {
+          transitionStart: function() {
+            for (let index = 0; index < this.slides.length; index++) {
+              const element = this.slides[index];
+              element.classList.remove('active')
+            }
+            this.slides[this.activeIndex + 2].classList.add('active')
+          },
+          init: function () {
+            this.slides[7].classList.add('active')
+          }
+        }
+      });
+    },
+    next: function () {
+      this.data.swiper.slideNext()
+    },
+    prev: function () {
+      this.data.swiper.slidePrev()
+    }
+  }
+</script>
+
+
+<style lang="less">
+.image-show {
+  width: 2800px;
+  margin: 0 auto;
+  margin-top: 20px;
+  height: 500px;
+  ul, .swiper-container {
+    height: 440px;
+    width: 100%;
+  }
+  .swiper-container {
+    width: 2800px;
+    position: absolute;
+    left: -50%;
+    right: -50%;
+    padding-top: 60px;
+  }
+  li {
+    height: 380px;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s;
+    transform: translate(0, 0);
+    img {
+      width: 100%;
+      height: 380px;
+    }
+    a {
+      display: block;
+      width: 100%;
+      height: 100%;
+      padding: 10px;
+    }
+    span {
+      position: absolute;
+      bottom: 0;
+      height: 40px;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.8);
+      color: white;
+      line-height: 40px;
+      text-align: center;
+      font-size: 20px;
+    }
+  }
+}
+.active {
+  transform: translate(0, -60px);
+}
+.button {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 50px;
+  cursor: pointer;
+}
+.left {
+  left: -200px;
+}
+.right {
+  right: -200px;
+}
+</style>

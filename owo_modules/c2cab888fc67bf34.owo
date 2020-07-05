@@ -1,0 +1,56 @@
+<template>
+  <div class="main-bar">
+    <a target="_blank" :for="data._itemLiat" href="{value.url}">{value.name}</a>
+  </div>
+</template>
+
+<script>
+  module.exports = {
+    data: {
+      _itemLiat: [
+        {"url":"http://www.people.com.cn/","name":"首页"},
+        {"url":"http://www.people.com.cn/","name":"要闻"},
+        {"url":"http://www.people.com.cn/","name":"国资动态"},
+        {"url":"http://www.people.com.cn/","name":"企业党建"},
+        {"url":"http://www.people.com.cn/","name":"公示公告"},
+        {"url":"http://www.people.com.cn/","name":"视频新闻"},
+        {"url":"http://www.people.com.cn/","name":"理论学习"},
+        {"url":"http://www.people.com.cn/","name":"廉政教育"},
+        {"url":"http://www.people.com.cn/","name":"基层传真"},
+        {"url":"http://www.people.com.cn/","name":"党史纵览"},
+        {"url":"http://www.people.com.cn/","name":"图说党建"}
+      ]
+    }
+  }
+</script>
+
+<style lang="less">
+.main-bar {
+  width: 1000px;
+  font-size: 18px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  margin: 0 auto;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  background-color: #ce262a;
+  a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  a:hover {
+    color: white;
+    text-decoration: #ffffff;
+  }
+
+}
+a {
+  color: white;
+  display: inline;
+  margin: 10px;
+  line-height: 30px;
+  text-align: center;
+}
+</style>
