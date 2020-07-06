@@ -1,33 +1,34 @@
 <template lang="pug">
 .image-show
-  .swiper-container
-    ul.swiper-wrapper
-      li.swiper-slide
-        a(href="#" target="_blank")
-          img(src="http://pic.people.com.cn/NMediaFile/2020/0703/MAIN202007030903000501770345775.jpg")
-          span 底部文字介绍
-      li.swiper-slide
-        a(href="#" target="_blank")
-          img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051101013268505548720.jpg")
-          span 底部文字介绍
-      li.swiper-slide
-        a(href="#" target="_blank")
-          img(src="http://www.people.com.cn/NMediaFile/2020/0703/MAIN202007031342371510552806950.jpg")
-          span 底部文字介绍
-      li.swiper-slide
-        a(href="#" target="_blank")
-          img(src="http://pic.people.com.cn/NMediaFile/2020/0703/MAIN202007030903000501770345775.jpg")
-          span 底部文字介绍
-      li.swiper-slide
-        a(href="#" target="_blank")
-          img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051101013268505548720.jpg")
-          span 底部文字介绍
-      li.swiper-slide
-        a(href="#" target="_blank")
-          img(src="http://www.people.com.cn/NMediaFile/2020/0703/MAIN202007031342371510552806950.jpg")
-          span 底部文字介绍
-    img.left.button(src="@|left.png|" o-tap="prev" o-hover="grow")
-    img.right.button(src="@|right.png|" o-tap="next" o-hover="grow")
+  .swiper-container-box
+    .swiper-container
+      ul.swiper-wrapper
+        li.swiper-slide
+          a(href="#" target="_blank")
+            img(src="http://pic.people.com.cn/NMediaFile/2020/0703/MAIN202007030903000501770345775.jpg")
+            span 底部文字介绍
+        li.swiper-slide
+          a(href="#" target="_blank")
+            img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051101013268505548720.jpg")
+            span 底部文字介绍
+        li.swiper-slide
+          a(href="#" target="_blank")
+            img(src="http://www.people.com.cn/NMediaFile/2020/0703/MAIN202007031342371510552806950.jpg")
+            span 底部文字介绍
+        li.swiper-slide
+          a(href="#" target="_blank")
+            img(src="http://pic.people.com.cn/NMediaFile/2020/0703/MAIN202007030903000501770345775.jpg")
+            span 底部文字介绍
+        li.swiper-slide
+          a(href="#" target="_blank")
+            img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051101013268505548720.jpg")
+            span 底部文字介绍
+        li.swiper-slide
+          a(href="#" target="_blank")
+            img(src="http://www.people.com.cn/NMediaFile/2020/0703/MAIN202007031342371510552806950.jpg")
+            span 底部文字介绍
+      img.left.button(src="@|left.png|" o-tap="prev" o-hover="grow")
+      img.right.button(src="@|right.png|" o-tap="next" o-hover="grow")
 </template>
 
 <script>
@@ -67,20 +68,22 @@
 
 <style lang="less">
 .image-show {
-  width: 2800px;
+  width: 100%;
   margin: 0 auto;
   margin-top: 20px;
   height: 500px;
-  ul, .swiper-container {
-    height: 440px;
-    width: 100%;
-  }
-  .swiper-container {
+  position: relative;
+  .swiper-container-box {
     width: 2800px;
     position: absolute;
     left: -50%;
     right: -50%;
     padding-top: 60px;
+    margin: 0 auto;
+  }
+  ul, .swiper-container {
+    height: 440px;
+    width: 100%;
   }
   li {
     height: 380px;

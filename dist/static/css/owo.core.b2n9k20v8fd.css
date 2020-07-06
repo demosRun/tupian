@@ -255,24 +255,26 @@ li {
 }
 
 .image-show {
-  width: 2800px;
+  width: 100%;
   margin: 0 auto;
   margin-top: 20px;
   height: 500px;
+  position: relative;
+}
+
+.image-show .swiper-container-box {
+  width: 2800px;
+  position: absolute;
+  left: -50%;
+  right: -50%;
+  padding-top: 60px;
+  margin: 0 auto;
 }
 
 .image-show ul,
 .image-show .swiper-container {
   height: 440px;
   width: 100%;
-}
-
-.image-show .swiper-container {
-  width: 2800px;
-  position: absolute;
-  left: -50%;
-  right: -50%;
-  padding-top: 60px;
 }
 
 .image-show li {
@@ -443,22 +445,23 @@ li {
 }
 
 .show-box.w1200 {
-  height: 800px;
   overflow: hidden;
   margin-top: 20px;
 }
 
 .show-box.w1200 .swiper-container-show {
+  position: relative;
   width: 1200px;
-  height: 800px;
   overflow: hidden;
 }
 
-.show-box.w1200 .swiper-container-show .swiper-slide {
+.show-box.w1200 .swiper-container-show li {
   height: 400px;
+  float: left;
+  width: 300px;
 }
 
-.show-box.w1200 .swiper-container-show .swiper-slide a {
+.show-box.w1200 .swiper-container-show li a {
   display: block;
   margin: 10px;
   height: 380px;
@@ -469,12 +472,12 @@ li {
   background-position: 210px 320px;
 }
 
-.show-box.w1200 .swiper-container-show .swiper-slide img {
+.show-box.w1200 .swiper-container-show li img {
   width: 100%;
   height: 200px;
 }
 
-.show-box.w1200 .swiper-container-show .swiper-slide span {
+.show-box.w1200 .swiper-container-show li span {
   color: #555555;
   font-size: 18px;
   margin: 0 10px;
@@ -483,12 +486,66 @@ li {
   display: block;
 }
 
-.show-box.w1200 .swiper-container-show .swiper-slide p {
+.show-box.w1200 .swiper-container-show li p {
   color: #555555;
   font-size: 14px;
   margin: 0 10px;
   line-height: 30px;
   width: 260px;
+  display: block;
+}
+
+.show-box.w1200 .swiper-container-show li:first-child {
+  width: 600px;
+  height: 450px;
+}
+
+.show-box.w1200 .swiper-container-show li:first-child p {
+  display: none;
+}
+
+.show-box.w1200 .swiper-container-show li:first-child a {
+  width: 580px;
+  height: 430px;
+  position: relative;
+  background-image: none;
+}
+
+.show-box.w1200 .swiper-container-show li:first-child .top-image,
+.show-box.w1200 .swiper-container-show li:first-child img {
+  width: 100%;
+  height: 100%;
+}
+
+.show-box.w1200 .swiper-container-show li:first-child span {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 96%;
+  left: -10px;
+  padding: 0 2%;
+  color: white;
+  font-size: 14px;
+}
+
+.show-box.w1200 .swiper-container-show li:nth-child(2),
+.show-box.w1200 .swiper-container-show li:nth-child(3) {
+  margin-top: 50px;
+}
+
+.more-button {
+  position: absolute;
+  right: 10px;
+  height: 40px;
+  background-color: #d42d26;
+  color: white;
+  width: 110px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 18px;
+  border-radius: 3px;
+  top: 10px;
+  cursor: pointer;
   display: block;
 }
 
@@ -533,42 +590,33 @@ li {
 }
 
 .jingxuantuji .left {
-  width: 490px;
+  width: 34%;
+  height: 40vw;
   overflow: hidden;
-  height: 500px;
-  margin-right: 10px;
 }
 
 .jingxuantuji .right {
-  width: 700px;
+  width: 66%;
+  height: 40vw;
 }
 
 .jingxuantuji .top {
-  height: 250px;
+  height: 50%;
 }
 
 .jingxuantuji .bottom {
-  margin-top: 10px;
-  height: 240px;
+  height: 50%;
 }
 
 .jingxuantuji .top-left,
 .jingxuantuji .bottom-right {
-  width: 330px;
+  width: 54%;
   height: 100%;
-}
-
-.jingxuantuji .top-left {
-  margin-right: 10px;
-}
-
-.jingxuantuji .bottom-right {
-  margin-left: 10px;
 }
 
 .jingxuantuji .bottom-left,
 .jingxuantuji .top-right {
-  width: 360px;
+  width: 46%;
   height: 100%;
 }
 
@@ -596,7 +644,6 @@ li {
 .jingxuantuji .top-right,
 .jingxuantuji .bottom-left,
 .jingxuantuji .bottom-right {
-  border: 1px solid #ccc;
   box-sizing: border-box;
 }
 
@@ -610,7 +657,18 @@ li {
   transition: transform 1s;
 }
 
-.show-box .swiper-slide:hover .top-image img {
+.show-box li:hover .top-image img {
   transform: scale(1.1);
+}
+
+.show-bar {
+  margin-top: 40px;
+}
+
+.show-bar a,
+.show-bar img {
+  display: block;
+  margin: 0  auto;
+  width: 1180px;
 }
 
