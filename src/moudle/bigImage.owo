@@ -4,15 +4,15 @@
     ul.swiper-wrapper
       li.swiper-slide
         a(href="#" target="_blank")
-          img(src="http://pic.people.com.cn/NMediaFile/2020/0703/MAIN202007030903000501770345775.jpg")
+          img(src="@|1.JPG|")
           span 底部文字介绍
       li.swiper-slide
         a(href="#" target="_blank")
-          img(src="http://www.people.com.cn/NMediaFile/2020/0705/MAIN202007051101013268505548720.jpg")
+          img(src="@|2.JPG|")
           span 底部文字介绍
       li.swiper-slide
         a(href="#" target="_blank")
-          img(src="http://www.people.com.cn/NMediaFile/2020/0703/MAIN202007031342371510552806950.jpg")
+          img(src="@|3.JPG|")
           span 底部文字介绍
   .pagination
 </template>
@@ -35,7 +35,7 @@
 
 <style lang="less">
 .big-image-swiper {
-  max-width: 1920px;
+  width: 100%;
   margin: 0  auto;
   margin-top: 20px;
   a {
@@ -44,11 +44,13 @@
     height: 100%;
   }
   ul {
-    height: 700px;
+    height: 800px;
+    height: 54vw;
     width: 100%;
   }
   li {
-    height: 700px;
+    height: 800px;
+    height: 54vw;
     position: relative;
     overflow: hidden;
     img {

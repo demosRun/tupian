@@ -1,0 +1,57 @@
+<template>
+<div id="copyright">
+<p><a href="http://www.people.com.cn/GB/1018/22259/index.html" target="_blank">人民日报社概况</a>
+<span class="xian">|</span>
+<a href="http://www.people.com.cn/GB/50142/353480/353481/index.html" target="_blank">关于人民网</a>
+<span class="xian">|</span>
+<a href="http://hr.peopledaily.com.cn/" target="_blank">报社招聘</a>
+<span class="xian">|</span>
+<a href="http://www.people.com.cn/GB/1018/245490/index.html" target="_blank">招聘英才</a>
+<span class="xian">|</span>
+<a href="http://www.people.com.cn/GB/208743/403202/index.html" target="_blank">广告服务</a>
+<span class="xian">|</span>
+<a href="http://www.people.com.cn/GB/50142/50462/index.html" target="_blank">合作加盟</a>
+<span class="xian">|</span>
+<a href="http://gonggao.people.com.cn/" target="_blank">供稿服务</a>
+<span class="xian">|</span>
+<a href="http://www.people.com.cn/n/2013/1227/c373005-23961344.html" target="_blank">网站声明</a>
+<span class="xian">|</span>
+<a href="http://www.people.com.cn/n/2013/1227/c373006-23961372.html" target="_blank">网站律师</a>
+<span class="xian">|</span>
+<a href="http://kf.people.com.cn/" target="_blank">呼叫中心</a>
+<span class="xian">|</span>
+<a href="http://english.peopledaily.com.cn/" target="_blank">ENGLISH</a>
+        </p>
+<p>镜像:<a href="http://www.people.com.cn/" target="_blank">日本</a>&nbsp;&nbsp;<a href="http://www.peopledaily.edu.cn/" target="_blank">教育网</a>&nbsp;&nbsp;<a href="http://www.peopledaily.ac.cn/" target="_blank">科技网</a>&nbsp;&nbsp;服务邮箱&nbsp;&nbsp;<a href="mailto:kf@people.cn" target="_blank">kf@people.cn</a>&nbsp;&nbsp;违法和不良信息举报电话：010-65363263</p>
+<p><a href="http://www.people.com.cn/img/2014xuke/2016hlwxw.html" target="_blank">互联网新闻信息服务许可证1012006001</a>
+<span class="xian">|</span>
+<a href="http://www.people.com.cn/img/2014xuke/2015zzdxk.htm" target="_blank">增值电信业务经营许可证B2-20100025</a>
+</p>
+<p><a href="http://www.people.com.cn/img/2011zzzs/2016xxwlcb.htm" target="_blank">信息网络传播视听节目许可证0104065</a>
+<span class="xian">|</span>
+<a href="http://www.people.com.cn/img/2014xuke/2016gbds.htm" target="_blank">广播电视节目制作经营许可证（广媒）字第172号</a>
+</p>
+<p><a href="http://www.people.com.cn/img/2014xuke/2015wlwh.html" target="_blank">网络文化经营许可证 京网文[2014]2108-308号</a>
+<span class="xian">|</span>
+<a href="http://www.people.com.cn/img/2014xuke/2016hlwcb.html" target="_blank">互联网出版许可证（京）字039号</a>
+<span class="xian">|</span>
+<a href="http://www.people.com.cn/img/2014xuke/2016icp.html" target="_blank">京ICP证000006号</a>
+<span class="xian">|</span>
+<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002000008" target="_blank">京公网安备11000002000008号</a>
+</p>
+<p class="mt30">人 民 网 版 权 所 有 ，未 经 书 面 授 权 禁 止 使 用<br>Copyright © 1997-2020 by www.people.com.cn. all rights reserved
+<span id="beian"><a href="http://www.hd315.gov.cn/beian/view.asp?bianhao=0102000101300040" target="_blank"><img src="http://www.people.com.cn/img/2011people/images/gongshang.gif" width="40" height="48" alt="" align="middle" border="0"></a></span></p>
+</div>
+</template>
+
+<style lang="less">
+#copyright{width:1000px;border-top:1px solid #f5f5f5;height:auto;margin:0 auto;padding-top:10px;text-align:center;line-height:28px;color:#000;font-family:'SimSun';font-size:12px;}
+p{margin-top:22px;line-height:100%;text-align:center;}
+a{color:#000;}
+p.mt30 {margin-top:30px;position:relative;line-height:200%;}
+#beian {position:absolute;right:220px;top:0px;}
+p.mt30 span#kxwz {position:absolute;right:80px;top:0px;}
+a {
+  color: #000;
+}
+</style>

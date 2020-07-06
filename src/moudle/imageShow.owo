@@ -26,8 +26,8 @@
         a(href="#" target="_blank")
           img(src="http://www.people.com.cn/NMediaFile/2020/0703/MAIN202007031342371510552806950.jpg")
           span 底部文字介绍
-    img.left.button(src="@|left.png|" o-tap="prev")
-    img.right.button(src="@|right.png|" o-tap="next")
+    img.left.button(src="@|left.png|" o-tap="prev" o-hover="grow")
+    img.right.button(src="@|right.png|" o-tap="next" o-hover="grow")
 </template>
 
 <script>
